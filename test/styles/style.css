@@ -1,0 +1,42 @@
+        * {
+            margin: 1rem;
+            padding: 1rem;
+            border: 2px solid gray;
+            background-color: black;
+            color: white;
+            box-sizing: border-box;
+        }
+
+        span {
+            margin: 2px;
+            padding: 0;
+        }
+
+        body {
+            border: 3px solid white;
+        }
+
+        header {
+            border: 3px solid green;
+            margin-bottom: 2rem;
+        }
+
+        header li {
+            display: inline-block;
+        }
+
+        main {
+            padding: 2rem;
+            border: 3px solid red;
+            margin: auto;
+            width: 50%;
+        }
+
+        main p {
+            overflow: hidden;
+        }
+
+        footer {
+            border: 3px solid blue;
+            padding: 0;
+        }

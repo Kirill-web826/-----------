@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        textarea {
+            width: 40rem;
+            height: 2rem;
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <form>
+            <!-- <label for="text">Это подпись для нашего текстового поля</label> -->
+            <input id="text" type="text" placeholder="Введите текст" disabled /><br />
+            <input id="number" type="number" min="5" step="10" max="30" /><br />
+            <input id="email" type="email" value="email@gmail.com"><br />
+            <input id="url" type="url"><br />
+            <input id="date" type="date"><br />
+            <textarea name="" id=""></textarea><br />
+            <label>
+                <input name="variant" type="radio" value="1"> вариант 1
+            </label>
+            <label>
+                <input name="variant" type="radio" value="2" checked> вариант 2
+            </label>
+            <label>
+                <input name="variant" type="radio" value="3"> вариант 3
+            </label>
+            <input type="checkbox"><br>
+            <select name="select" id="" area-label="chooseone">
+                <option value="">Опция1</option>
+                <option value="">Опция2</option>
+                <option value="">Опция3</option>
+                <option value="">Опция4</option>
+                <option value="">Опция5</option>
+            </select><br>
+            <input type="range"><br>
+            <button>Обновление Страницы</button>
+        </form>
+    </main>
+</body>
+
+</html>
